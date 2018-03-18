@@ -14,6 +14,7 @@
 		170FD70B205E3C5C00B22710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170FD709205E3C5C00B22710 /* LaunchScreen.storyboard */; };
 		170FD716205E3C5C00B22710 /* CustomLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FD715205E3C5C00B22710 /* CustomLabelTests.swift */; };
 		170FD721205E3C5C00B22710 /* CustomLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FD720205E3C5C00B22710 /* CustomLabelUITests.swift */; };
+		170FD730205E3C7E00B22710 /* ExUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FD72F205E3C7E00B22710 /* ExUILabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		170FD71C205E3C5C00B22710 /* CustomLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		170FD720205E3C5C00B22710 /* CustomLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelUITests.swift; sourceTree = "<group>"; };
 		170FD722205E3C5C00B22710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170FD72F205E3C7E00B22710 /* ExUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExUILabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		170FD6FF205E3C5C00B22710 /* CustomLabel */ = {
 			isa = PBXGroup;
 			children = (
+				170FD72E205E3C6F00B22710 /* Extension */,
 				170FD700205E3C5C00B22710 /* AppDelegate.swift */,
 				170FD702205E3C5C00B22710 /* ViewController.swift */,
 				170FD704205E3C5C00B22710 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				170FD722205E3C5C00B22710 /* Info.plist */,
 			);
 			path = CustomLabelUITests;
+			sourceTree = "<group>";
+		};
+		170FD72E205E3C6F00B22710 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				170FD72F205E3C7E00B22710 /* ExUILabel.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				170FD703205E3C5C00B22710 /* ViewController.swift in Sources */,
 				170FD701205E3C5C00B22710 /* AppDelegate.swift in Sources */,
+				170FD730205E3C7E00B22710 /* ExUILabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
