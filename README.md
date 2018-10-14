@@ -6,7 +6,7 @@ Blog for Custom UILabel Effects.
 
 ## Make Custom label for OutLine effect
 
-```
+```swift
 let strokeTextAttributes = [ 
     NSAttributedStringKey.strokeColor : UIColor.red,
     NSAttributedStringKey.foregroundColor : UIColor.white,
@@ -22,7 +22,7 @@ labelOutLine.attributedText = NSMutableAttributedString(string: “Your outline 
 
 ## Make Custom label for UnderLine effect
 
-```
+```swift
 let attributedString = NSMutableAttributedString(string: “Your UnderLine text”)
 attributedString.addAttribute(NSAttributedStringKey.underlineStyle, value: NSUnderlineStyle.styleSingle.rawValue, range: NSRange(location: 0, length: attributedString.length))
 //Underline effect here
