@@ -4,7 +4,7 @@ Blog for Custom UILabel Effects.
 [Check full blog from here.](https://medium.com/@nimjea/custom-label-effects-in-swift-4-69ec12ba2178)
 
 
-Make Custom label for OutLine effect
+## Make Custom label for OutLine effect
 
 ```
 let strokeTextAttributes = [ 
